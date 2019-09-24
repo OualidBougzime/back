@@ -1,6 +1,6 @@
 # README
 
-FABIEN SAM
+OUALID BOUGZIME
 
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/6bf006d427f998883b56/maintainability)](https://codeclimate.com/github/Fabiensamj/projet-back-A19/maintainability)
