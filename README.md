@@ -1,12 +1,8 @@
 # README
 
-OUALID BOUGZIME
+Yosef BAYOUDE IZOUKA
 
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/6bf006d427f998883b56/maintainability)](https://codeclimate.com/github/Fabiensamj/projet-back-A19/maintainability)
-[![Build Status](https://travis-ci.org/Fabiensamj/projet-back-A19.svg?branch=master)](https://travis-ci.org/Fabiensamj/projet-back-A19)
-
-test
+[![Maintainability](https://api.codeclimate.com/v1/badges/5776d7efb96087bc3ff9/maintainability)](https://codeclimate.com/github/YosefBayoude/backend/maintainability) [![Build Status](https://travis-ci.org/YosefBayoude/backend.svg?branch=master)](https://travis-ci.org/YosefBayoude/backend)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
