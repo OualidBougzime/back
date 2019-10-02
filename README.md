@@ -4,6 +4,7 @@ OUALID BOUGZIME
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/b0cb9c6abf360180d7ed/maintainability)](https://codeclimate.com/github/OualidBougzime/back/maintainability)
 [![Build Status](https://travis-ci.org/OualidBougzime/back.svg?branch=master)](https://travis-ci.org/OualidBougzime/back)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b0cb9c6abf360180d7ed/test_coverage)](https://codeclimate.com/github/OualidBougzime/back/test_coverage)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
