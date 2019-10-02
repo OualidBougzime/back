@@ -2,7 +2,7 @@
 
 OUALID BOUGZIME
 
-[![Maintainability](<a href="https://codeclimate.com/github/OualidBougzime/back/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b0cb9c6abf360180d7ed/test_coverage" /></a>)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b0cb9c6abf360180d7ed/maintainability)](https://codeclimate.com/github/OualidBougzime/back/maintainability)
 [![Build Status](https://travis-ci.org/OualidBougzime/back.svg?branch=master)](https://travis-ci.org/OualidBougzime/back)
 
 This README would normally document whatever steps are necessary to get the
