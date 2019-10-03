@@ -1,1 +1,22 @@
-
+env:
+  global:
+  - CC_TEST_REPORTER_ID=c43fa98a3fb5d9ea9154ef1bbe0b5056a23dcd31ed5dd0189b80984933d4b548
+language: ruby
+rvm:
+- 2.3.3
+before_script:
+- curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
+  > ./cc-test-reporter
+- chmod +x ./cc-test-reporter
+- "./cc-test-reporter before-build"
+script:
+- bundle exec rails db:migrate RAILS_ENV=test
+- bundle exec rake
+after_script:
+- "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
+deploy:
+  provider: heroku
+  api_key: ea8f9f8b-e9df-410c-b96b-74b78a831baf
+  run:
+    - "bundle install --without development test"
+    - "bundle exec rails db:migrate"

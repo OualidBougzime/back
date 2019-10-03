@@ -3,9 +3,9 @@
 one:
   name: MyString
   last_name: MyString
-  birthday: 2019-09-27
+  birthdate: 2019-09-27
 
 two:
   name: MyString
   last_name: MyString
-  birthday: 2019-09-27
+  birthdate: 2019-09-27
