@@ -17,6 +17,7 @@ after_script:
 deploy:
   provider: heroku
   api_key: ea8f9f8b-e9df-410c-b96b-74b78a831baf
+  app: oualidlpa2back
   run:
     - "bundle install --without development test"
     - "bundle exec rails db:migrate"
