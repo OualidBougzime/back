@@ -16,8 +16,9 @@ after_script:
 - "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
 deploy:
   provider: heroku
-  api_key: ea8f9f8b-e9df-410c-b96b-74b78a831baf
+  api_key:
+    secure: YFP77YNFSJop2HEiTh/+A+4Xwk9tIkmniuTnk7EF67dNX85MZgrPIanLrLoY7BgXXCFURdmsWh9aPaZyJ4jRPLNa+aLGphlfSFxXvKLwxYjeFbyE/2GOZ9hAYNRxwKTK4BG2wM+F3fHeL7GmFSNSUhHNXyc0V9Dro7LI23X0kBoRpEZrODV2cc3xAIL9S5t+MImXCo/WTTIOq2MHWZijeHuIMqRtt2SRQrOy3hr7y/PiAcHHDOmt3VtH/ACWtO5cVCNk9wbECLmOGDbXICC7rR4bJyA0G4TfE0xzCvnfdaBJOLlFUSpUC1nAwsnGeNUd56938K/QWSj8Ms+wZeZDt6l4DZNBySlvFd2B3PHqK1y2ES7CIimfoBX2+vbR+qftDfzSLUn9fslCVYs4YzuLiAAWk4nn5ik4VHxa9vsHA3HFilMOvlhjTUxIFLFKZOc+ueAf3IThkQGkBSNBacO7TzhRrVW10lCQ3duI5iGh6WzmWgs6r5BX3dfMTF1GU8WqFAbWUoGGGTQBRT4DrVn+3f+67L+D9VLAUbP4utEd0BL7uD/zRhppNcurmjdAB+9DMINo6Xel7uVDd+DUSkSEUaeYM9EijoVhHVaAekKjFP1WNs0uGOH3XiJWALj6FbHqZ9oOFTtQR238pSokGQ9OIUnwiQDKJrCJ12doclEvGvM=
   app: oualidlpa2back
   run:
-    - "bundle install --without development test"
-    - "bundle exec rails db:migrate"
+  - bundle install --without development test
+  - bundle exec rails db:migrate
